@@ -1,0 +1,64 @@
+Windows prompt 
+
+Comandos:
+
+	ECHO: Escreve na tela
+	
+	@echo off : usar no inicio do codigo retira todos echos da tela
+	ECHO OFF: Oculta informações e o código executado pelo sistema.
+	
+	ECHO ON: Exibe informações e o código executado pelo sistema.
+	
+	ECHO.: Salta uma linha.
+	
+	@ECHO: Faz com que o prompt fique oculto durante toda execução.
+	
+	SET: Cria variável que pode ser referenciada através de %variável%.
+	
+	CLS: Limpa o console.
+	
+	IF e ELSE: Estruturas condicionais.
+	
+	GOTO: Avança até determinado trecho do lote.
+	
+	FOR: Estrutura de repetição.
+	
+	PAUSE: Faz uma pausa, e exibe: “Pressione qualquer tecla para continuar.”
+	
+	REM: Utilizado para fazer comentários.
+	
+	START: Inicializa um aplicativo ou programa.
+	
+	MOVE: Move (recorta) um arquivo de um diretório para outro.
+
+
+
+Commandos de funcionalidade
+
+dir:  Lista diretorios
+
+mkdir: cria diretorios
+
+move <nomeArquivo> C:..\..  : move o arquivo para o local indicado
+
+type <nomeArquivo> : abre um aquivo de texto no prompt se ele nao existir cria
+
+more <nomeArquivo> : abre um arquivo no terminal fazendo paginacao
+
+copy <nomeArquivo> <nomeDoAquirvoGerado (copiaa)>  : cria uma copia de um arquivo
+
+xcopy /e /y <nomeDiretorio> <nomeDiretorioGerado(copia)> : cria uma copia de um diretorio onde /e faz recursivamente
+
+del <nomeArquivo> : deleta um arquivo
+
+cls : limpa a tela do prompt
+
+> : cria um arquivo jogando o conteudo para ele
+
+>> : se o aqruivo exitir nao sobreescreve apenas concatena com o que o arquivo ja possuiu
+
+tree : mostra pastas e subpastas em grafico de arvore
+
+setx PATH "%PATH%;C:\MeusScripts" /M : seta seu diretorio na path do windows usar somento no prompt original
+
+echo %PATH% > backupPATH.txt : cria arquivo backup da PATH
